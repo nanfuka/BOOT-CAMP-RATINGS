@@ -1,0 +1,6 @@
+import pytest
+
+@pytest_fixture
+def testSetup():
+    register = Register()
+    
